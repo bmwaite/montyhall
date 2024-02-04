@@ -1,0 +1,14 @@
+Package: montyhall
+Title: Monty Hall Game
+Version: 0.0.0.9000
+Authors@R:
+    person("Bryan", "Waite", , "bryan.waite192@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package simulates the Monty Hall problem, similar to Let's Make a Deal. Contestants select a random door to start and there will either be a goat or a car behind the door. They then can change their door or keep the selected option. Once they have decided on their final choice, they either win or lose. These strategies are then stored in a data frame with their strategy and the outcome being logged. The game is then simulated 100 times and then generates a table with the statistical percentages of each strategy.
+Depends:
+	dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
